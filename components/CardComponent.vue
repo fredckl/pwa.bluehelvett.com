@@ -7,7 +7,7 @@
         <slot></slot>
       </p>
       <div v-if="showMore" class="clearfix mt-4 text-center">
-      <button class="bg-red-light hover:bg-blue-dark text-white py-2 px-4 rounded">En savoir +</button>
+        <a :href="showMore" class="bg-red-light hover:bg-blue-dark text-white py-2 px-4 rounded">en savoir +</a>
 
       </div>
     </div>
@@ -15,15 +15,14 @@
 </template>
 
 <script>
-export default {
-  props: {
-    title: String,
-    body: String,
-    img: String,
-    imgAlt: String,
-    showMore: String
+  export default {
+    props: {
+      title: String,
+      body: String,
+      img: String,
+      imgAlt: String,
+      showMore: String
+    }
   }
-}
+
 </script>
-
-

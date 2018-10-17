@@ -32,7 +32,7 @@
     <div class="submenu shadow" :class="{ 'active animated fadeInRight' : subMenuIsActive }">
       <div class="flex justify-between flex-wrap p-6">
         <div class="flex-1 text-right">
-          <nuxt-link v-for="(menu, index) in menus" :key="index" :to="{name: menu.url}" class="text-grey-darkest hover:text-red-light uppercase px-2 ml-2 rounded border-l border-r border-grey-darkest">{{ menu.title }}</nuxt-link>
+          <nuxt-link v-for="(menu, index) in menus" :key="index" :to="menu.url" class="text-grey-darkest hover:text-red-light uppercase px-2 ml-2 rounded border-l border-r border-grey-darkest">{{ menu.title }}</nuxt-link>
         </div>
       </div>
     </div>
@@ -45,15 +45,15 @@ export default {
     return {
       menus: [
         {
-          url: 'site-vitrine',
+          url: '/sites/vitrine',
           title: 'Site vitrine'
         },
         {
-          url: 'site-e-commerce',
+          url: '/sites/e-commerce',
           title: 'Site e-commerce'
         },
         {
-          url: 'site-sur-mesure',
+          url: '/sites/sur-mesure',
           title: 'Site sur-mesure'
         }
       ],

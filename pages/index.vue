@@ -58,8 +58,7 @@
       <div class="flex flex-wrap">
 
         <div class="sm:w-full md:w-1/3 px-3 py-2">
-          <card-component title="Le site vitrine" img="/site-vitrine.png" showMore="/sites-vitrine">
-
+          <card-component title="Le site vitrine" img="/site-vitrine.png" showMore="/sites/vitrine">
             principalement utilisé pour créer une présence sur internet.
             <br>
             C'est le premier vecteur de communication pour parler de votre activité.
@@ -72,10 +71,12 @@
           </card-component>
         </div>
         <div class="sm:w-full md:w-1/3 px-3 py-2">
-          <card-component title="Le site e-commerce" body="pour vendre au monde entier" img="/site-e-commerce.png" showMore="sites-e-commerce">
-
+          <card-component title="Le site e-commerce" body="pour vendre au monde entier" img="/site-e-commerce.png" showMore="/sites/e-commerce">
             destiné à des usages de vente en ligne.
             <br>
+            Vous êtes professionnels, indépendants et vous souhaitez vendre au plus grand nombre. Le site e-commerce est l'outil par excellence.
+
+
             Que vous possédiez un magasin et que vous souhaitiez réaliser des ventes aux travers d'un magasin
             virtuelle
             ou que vous soyez artisan bijoutier travaillant de chez vous désireux de vendre votre travail aux plus
@@ -90,7 +91,7 @@
           </card-component>
         </div>
         <div class="sm:w-full md:w-1/3 px-3 py-2">
-          <card-component title="Le sur-mesure" body="pour votre métier" img="/site-sur-mesure.png" showMore="site-sur-mesure">
+          <card-component title="Le sur-mesure" body="pour votre métier" img="/site-sur-mesure.png" showMore="/sites/sur-mesure">
 
             Les sites <strong>sur-mesure</strong> sont la rolls des sites internet.
             <br>
