@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
-    "animejs": "^2.2.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
-    "sticky-js": "^1.2.0"
+    "sticky-js": "^1.2.0",
+    "vivus": "^0.4.4"
   },
   "devDependencies": {
     "nodemon": "^1.11.0",
