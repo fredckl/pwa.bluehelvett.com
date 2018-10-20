@@ -15,6 +15,7 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.0.0",
     "sticky-js": "^1.2.0",
+    "vee-validate": "^2.1.0-beta.11",
     "vivus": "^0.4.4"
   },
   "devDependencies": {
